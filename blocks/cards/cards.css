@@ -36,7 +36,6 @@
   padding: 48px 0;
 }
 
-/* Main card row uses flexbox, cards side by side, fills container */
 .cards.cards4 ul {
   display: flex;
   flex-direction: row;
@@ -50,7 +49,6 @@
   list-style: none;
 }
 
-/* Responsive stacking for mobile */
 @media (width <= 900px) {
   .cards.cards4 ul {
     flex-direction: column;
@@ -59,7 +57,6 @@
   }
 }
 
-/* Card styling: fluid width, tight gap, shadow, rounded corners */
 .cards.cards4 ul li {
   background: #212121;
   border: none;
@@ -75,7 +72,6 @@
   box-sizing: border-box;
 }
 
-/* On wide screens, cards fill row and are closer together */
 @media (width >= 1200px) {
   .cards.cards4 ul {
     gap: 24px;
@@ -86,12 +82,10 @@
   }
 }
 
-/* Card hover effect for depth */
 .cards.cards4 ul li:hover {
   box-shadow: 0 8px 32px rgb(0 0 0 / 25%);
 }
 
-/* Top "image"/placeholder area, visually prominent, rounded top corners */
 .cards.cards4 ul li .cards-card-body {
   background: #292929;
   min-height: 160px;
@@ -108,12 +102,10 @@
   box-sizing: border-box;
 }
 
-/* Remove extra gap between image and text area */
 .cards.cards4 ul li .cards-card-body:not(:last-child) {
   margin-bottom: 0;
 }
 
-/* Second .cards-card-body in each card: text area, anchor content to bottom */
 .cards.cards4 ul li .cards-card-body + .cards-card-body {
   background: #212121;
   padding: 18px 22px 24px;
@@ -126,13 +118,11 @@
   min-height: 100px;
 }
 
-/* Left align all text in text area */
 .cards.cards4 ul li .cards-card-body + .cards-card-body h3,
 .cards.cards4 ul li .cards-card-body + .cards-card-body h4 {
   text-align: left;
 }
 
-/* Meta/date/category styling: small, light, subtle */
 .cards.cards4 ul li h3 {
   font-size: 13px;
   font-weight: 400;
@@ -143,7 +133,6 @@
   opacity: 0.85;
 }
 
-/* Headline styling: visually dominant */
 .cards.cards4 ul li h4 {
   font-size: 18px;
   font-weight: 600;
@@ -152,7 +141,6 @@
   line-height: 1.38;
 }
 
-/* Remove extra spacing from placeholder p */
 .cards.cards4 ul li .cards-card-body p {
   margin: 0;
   padding: 0;
@@ -162,7 +150,6 @@
   opacity: 0.7;
 }
 
-/* Responsive tweaks for smaller screens */
 @media (width <= 600px) {
   .cards.cards4 ul {
     gap: 12px;
@@ -175,5 +162,140 @@
   .cards.cards4 ul li {
     min-width: 0;
     max-width: 100%;
+  }
+}
+
+
+.cards.cards8 {
+  background: #111;
+  padding: 64px 0;
+}
+
+.cards.cards8 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  place-items: start center;
+  width: 100%;
+}
+
+.cards.cards8 li {
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards.cards8 .cards-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.cards.cards8 .cards-card-image img {
+  width: 330px;
+  max-width: 100%;
+  filter: drop-shadow(0 8px 32px rgb(0 0 0 / 17%));
+  display: block;
+}
+
+.cards.cards8 .cards-card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.cards.cards8 .cards-card-body p {
+  color: #fff;
+  text-align: center;
+  margin: 0 0 16px;
+  font-size: 1.07em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cards.cards8 .cards-card-body p:first-child {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 0.025em;
+  margin-bottom: 14px;
+  color: #76b82a;
+}
+
+.cards.cards8 ul li:nth-child(2) .cards-card-body p:first-child { color: #e72c1b; }
+.cards.cards8 ul li:nth-child(3) .cards-card-body p:first-child { color: #1c3c99; }
+.cards.cards8 ul li:nth-child(4) .cards-card-body p:first-child { color: #ffe132; }
+.cards.cards8 ul li:nth-child(5) .cards-card-body p:first-child { color: #e62b1c; }
+.cards.cards8 ul li:nth-child(6) .cards-card-body p:first-child { color: #ff7600; }
+.cards.cards8 ul li:nth-child(7) .cards-card-body p:first-child { color: #b91c1c; }
+
+.cards.cards8 .cards-card-body a.button,
+.cards.cards8 .cards-card-body button {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 8px 28px;
+  background: #fff;
+  color: #111;
+  border-radius: 16px;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  box-shadow: none;
+  transition: background .2s, color .2s;
+  min-width: 0;
+}
+
+.cards.cards8 .cards-card-body a.button:hover,
+.cards.cards8 .cards-card-body button:hover {
+  background: #ffe132;
+  color: #111;
+}
+
+@media (width <= 920px) {
+  .cards.cards8 ul {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    max-width: 95vw;
+    padding: 0 4vw;
+  }
+
+  .cards.cards8 .cards-card-image img {
+    width: 210px;
+  }
+
+  .cards.cards8 {
+    padding: 36px 0;
+  }
+}
+
+@media (width <= 600px) {
+  .cards.cards8 {
+    padding: 14px 0;
+  }
+
+  .cards.cards8 ul {
+    gap: 20px;
+    padding: 0 2vw;
+  }
+
+  .cards.cards8 .cards-card-image img {
+    width: 110px;
+  }
+
+  .cards.cards8 .cards-card-body p:first-child {
+    font-size: 1.1em;
+    margin-bottom: 8px;
   }
 }
