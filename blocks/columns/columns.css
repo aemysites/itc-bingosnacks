@@ -5,7 +5,11 @@
 }
 
 .columns img {
-  width: 100%;
+  width: 80px;
+  display: block;
+  max-width: 80px;
+  height: auto;
+  margin: 0 auto 12px;
 }
 
 .columns > div > div {
@@ -595,12 +599,10 @@
   text-align: left;
 }
 
-/* Provide space if a div contains multiple children (e.g. h2 + p) */
 .columns.columns27 div :not(:last-child) {
   margin-bottom: 0.4em;
 }
 
-/* Responsive: stack columns vertically on narrow screens */
 @media (width <= 700px) {
   .columns.columns27 {
     flex-direction: column;
@@ -612,4 +614,153 @@
     width: 100%;
     padding: 1rem;
   }
+}
+
+
+.columns {
+  background: #FFD600;
+  color: #000;
+  padding: 48px 0 40px;
+  box-sizing: border-box;
+}
+
+/* --- Main Layout: Grid with vertical and horizontal centering --- */
+.columns .columns-wrapper,
+.columns .block,
+.columns .columns6,
+.columns .columns-6-cols {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 32px;
+  place-items: center center;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+/* --- Responsive: Stack columns vertically below 900px --- */
+@media (width <= 900px) {
+  .columns .columns-wrapper,
+  .columns .block,
+  .columns .columns6,
+  .columns .columns-6-cols {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* --- Each Column: vertical stack, alignment & spacing --- */
+.columns .columns-wrapper .block div,
+.columns .columns-wrapper .columns6 div,
+.columns .columns-wrapper .columns-6-cols div,
+.columns .block div,
+.columns .columns6 div,
+.columns .columns-6-cols div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+  padding: 0 12px;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+/* --- First Column (Logo + License): center contents --- */
+.columns .columns-wrapper .block div:first-of-type,
+.columns .columns-wrapper .columns6 div:first-of-type,
+.columns .columns-wrapper .columns-6-cols div:first-of-type,
+.columns .block div:first-of-type,
+.columns .columns6 div:first-of-type,
+.columns .columns-6-cols div:first-of-type {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* --- Logo Image Sizing and Spacing --- */
+
+/* --- License Text Spacing --- */
+.columns p {
+  color: #000;
+  font-size: 14px;
+  margin: 0 0 8px;
+  line-height: 1.4;
+  text-align: inherit;
+}
+
+/* --- Menu Lists --- */
+.columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columns li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+.columns li:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Link Styling: black, underlined, larger --- */
+.columns a,
+.columns .block a,
+.columns .columns6 a,
+.columns .columns-6-cols a {
+  color: #000;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color .2s;
+  background: transparent;
+}
+
+.columns a:hover,
+.columns .block a:hover,
+.columns .columns6 a:hover,
+.columns .columns-6-cols a:hover {
+  color: #333;
+}
+
+/* --- Headings inside columns (if present) --- */
+.columns h2,
+.columns h3,
+.columns h4 {
+  color: #000;
+  font-weight: 600;
+  margin: 0 0 12px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: inherit;
+}
+
+/* --- Responsive: Stack column contents and center text on mobile --- */
+@media (width <= 900px) {
+  .columns .columns-wrapper .block div,
+  .columns .columns-wrapper .columns6 div,
+  .columns .columns-wrapper .columns-6-cols div,
+  .columns .block div,
+  .columns .columns6 div,
+  .columns .columns-6-cols div {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+/* --- Reduce vertical padding on very small screens --- */
+@media (width <= 600px) {
+  .columns {
+    padding: 24px 0 16px;
+  }
+}
+
+/* --- Remove unwanted backgrounds from inner divs --- */
+.columns .block div,
+.columns .columns6 div,
+.columns .columns-6-cols div {
+  background: transparent;
 }
