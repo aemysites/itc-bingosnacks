@@ -3686,7 +3686,8 @@
           "uuid": "f1d82e6b-02-d6443450f29b80a8a8a4d5b4bf576c7b208202e4",
           "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]"
         }
-      ]
+      ],
+      "key": "unknown7"
     },
     {
       "name": "Cards",
@@ -4871,7 +4872,8 @@
           "uuid": "a2889da9-03-436737b61ee4d7c08a4bd2873dd2659da16aea27",
           "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]"
         }
-      ]
+      ],
+      "key": "unknown21"
     },
     {
       "name": "Cards",
@@ -5125,7 +5127,8 @@
           "uuid": "c5398bc0-02-d18f7b75a1b41458f39fb6fbc3649cc6191d3a45",
           "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]"
         }
-      ]
+      ],
+      "key": "unknown26"
     },
     {
       "name": "Columns",
