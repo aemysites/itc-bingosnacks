@@ -1,0 +1,622 @@
+{
+  "originUrl": "https://bingosnacks.com",
+  "aborted": false,
+  "lastCrawled": "https://bingosnacks.com/",
+  "urls": [
+    {
+      "url": "https://bingosnacks.com/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "bfaeff67bf6d0ba62f258253007bc1533d4500de"
+    },
+    {
+      "url": "https://bingosnacks.com/all-about-quality.html",
+      "source": "SITEMAPS",
+      "targetPath": "/all-about-quality",
+      "id": "c65b829345814011e96622977a208124d38ab3d2"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-comedy-adda.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-comedy-adda",
+      "id": "3d7711b90b25e44fe0cf6f123b9d87b6ff589635"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-hashtag.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-hashtag",
+      "id": "899933d1393f9684588d1fcc3728b8c6d47c30c8"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-hashtag/cream-and-onion.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-hashtag/cream-and-onion",
+      "id": "db12622e7e95d54c9c767b073ca604fa1de73ff2"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-hashtag/hot-spicy-korean-style.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-hashtag/hot-spicy-korean-style",
+      "id": "efb0f196ff3178e6b011276644daa7b7393c7549"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-hashtag/spicy-masala.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-hashtag/spicy-masala",
+      "id": "c47ba0d045de8a42c102b2d67fe65708f8851564"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-korean.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-korean",
+      "id": "f1d82e6b1cf929c3c5f2fdc85d3770967c916242"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-korean/terms-and-conditions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-korean/terms-and-conditions",
+      "id": "f0ed5639a6686964b755da67be23f1409174a512"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles-bike-bumper-offer-terms.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles-bike-bumper-offer-terms",
+      "id": "21b6a9d1f974f8ad29e94c99c9993adba961df95"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles",
+      "id": "0f9debdc343dc62d27ad3ccc4eb383ed60f105c2"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/achari-masti.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/achari-masti",
+      "id": "eef64934ad833d7c9f0963b08ddb35c711519190"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/chaat-masti.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/chaat-masti",
+      "id": "70e5a26751816bf1b657d39283a544bef5e9ab0a"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/mad-angles-red-alert.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/mad-angles-red-alert",
+      "id": "405e2c950e62050dd56e69ef53d19e6f8274d013"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/mmmmm-masala.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/mmmmm-masala",
+      "id": "b460dc234ec32a0db3a3f9270773056cdbec080b"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/mystery-pickle.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/mystery-pickle",
+      "id": "04befe344898194af9d9d0267a71aabaf588794e"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/pizzaaaaah.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/pizzaaaaah",
+      "id": "c18ef7bb97d937c9dddbe87ed4f27cc72411f881"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/tomato-madness.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/tomato-madness",
+      "id": "42e77de7b12c005e80979d2a7d10ba3a32bd44da"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-angles/very-peri-peri.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-angles/very-peri-peri",
+      "id": "943984534185026dbe779870e4f22f7af306d37e"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-mad-for-peace-promo-terms.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-mad-for-peace-promo-terms",
+      "id": "d94f495dd233ecddde147c933ffca30d75bd720d"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-nachos.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-nachos",
+      "id": "afc4d5d43ea9ddbbdeea9c3aa76d0418332baab7"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-nachos/cheese-nachos.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-nachos/cheese-nachos",
+      "id": "28da2ac1ad2a2dc20e6423df5dc4c1bb7e99336f"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-nachos/chilli-limon-nachos.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-nachos/chilli-limon-nachos",
+      "id": "0231a0ceb4d9cf33454f83ec4623c69d451f9d04"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-nachos/korean-nachos.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-nachos/korean-nachos",
+      "id": "fbd98aa897b7e8e2b10225ffe0af51879a25148b"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style",
+      "id": "ba5987be5523609661f079f14828d2d6f40a64d7"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/chill-charged-tomato.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/chill-charged-tomato",
+      "id": "7e980da8336ccd3cde62b6d10ad5c158b0bf412a"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/chilli-sprinkled.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/chilli-sprinkled",
+      "id": "66204512bcf5d07c75d92ab5d84f3f174bedf3b0"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/cream-and-onion.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/cream-and-onion",
+      "id": "0c8485914674222b73ebad3aef97ae894e3b0685"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/himalayan-pink-salt.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/himalayan-pink-salt",
+      "id": "b1c840c3c17c88f4d997034483478cca36084491"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/korean-style.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/korean-style",
+      "id": "ebb5d84db2c8b79be114a215c4ee55ed0d98d73f"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-original-style/salt-sprinkled.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-original-style/salt-sprinkled",
+      "id": "b151e12486ff092e1a09b41332ccdf0b95fa8fa2"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-pc-friendship-day.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-pc-friendship-day",
+      "id": "67b3b3894903cb57cd49ff8f8c647735cc2fac98"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-popped-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-popped-chips",
+      "id": "056ce8687f10ea478b7744b3c5994a5d6632a3ca"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips",
+      "id": "484dc2d02a69f238f616c1fee1b9bb176c4828a9"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/bingo-tomato-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/bingo-tomato-potato-chips",
+      "id": "392acdbf91143902d670f9a2f500a1c545165706"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/chilli-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/chilli-potato-chips",
+      "id": "9d3f740443b35d2ee4c02b45d0ea16510bd68974"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/cream-and-onion.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/cream-and-onion",
+      "id": "3d37559ae747fc78f4e4d822bb38ae31bd253053"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/korean-style.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/korean-style",
+      "id": "91a2d68191e9a37124bea68cbe58c568bf39295a"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/masala-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/masala-potato-chips",
+      "id": "fbd31ce3b5ce19025d0a82acb21e70e1076c8352"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/salted-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/salted-potato-chips",
+      "id": "b56a2fbcf87e0031c4735dba010adf61f4ba974b"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-potato-chips/tomato-and-chilli-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-potato-chips/tomato-and-chilli-potato-chips",
+      "id": "844ce7aaa6c0554d885dd933f78c4cec5754e3d6"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-punjabi-tadka.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-punjabi-tadka",
+      "id": "07c84e4578b2b546241ffd0d950822ed26d1bb6b"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe",
+      "id": "71e48ccbc9913ea01d5b5310a1c1f8c851e7c1e6"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/achaari-masti.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/achaari-masti",
+      "id": "28b785753d36d1bc4ebe44131a86a8898d9420c5"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/chatpata-twist.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/chatpata-twist",
+      "id": "884224bd98611ece462483f84cb22ff39df0213e"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/cream-and-onion.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/cream-and-onion",
+      "id": "55e89ee80d95099e594f7d16b9947cae7ab9bcc2"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/masala-tadka.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/masala-tadka",
+      "id": "08c222b209cb554b241b2a4f58b82422dbf9ad80"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/tomato-masti.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/tomato-masti",
+      "id": "ac72eff73a8d484071a1ed87f565c5fdab0b2fc9"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-tedhe-medhe/xtraa-teekha.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-tedhe-medhe/xtraa-teekha",
+      "id": "d6d21d9941032f38beb3a38c6e75a0261a5a445c"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks",
+      "id": "fd4f6d83163c52095bcbed57c9a78d0dad71bd4c"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/bingo-tedhe-medhe-aloo-bhujia.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/bingo-tedhe-medhe-aloo-bhujia",
+      "id": "dd64229f49b931e40bfaed60c975476dedb2a167"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-cocktail-mix.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-cocktail-mix",
+      "id": "610dd1a89c5e2d2e737e2779dfc6149f4b581364"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-khatta-meetha.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-khatta-meetha",
+      "id": "2a6622794ff05983e0f82607ea6d803fb20aa999"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-moong-dal.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-moong-dal",
+      "id": "161934ad541996b858ae60b3686095f98766c73c"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-navrattan-mix.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-navrattan-mix",
+      "id": "b902e40f9d22be0fe801b6c6aa42eb8b2e7d58b0"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-pulse-mix.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-pulse-mix",
+      "id": "fc1e4c54e4ccf8fd8eb8cce75866b91f4864ffcd"
+    },
+    {
+      "url": "https://bingosnacks.com/bingo-traditional-snacks/tedhe-medhe-punjabi-tadka.html",
+      "source": "SITEMAPS",
+      "targetPath": "/bingo-traditional-snacks/tedhe-medhe-punjabi-tadka",
+      "id": "8a52463fced55a6caada61d2233d16c3142ef88f"
+    },
+    {
+      "url": "https://bingosnacks.com/boing-contest.html",
+      "source": "SITEMAPS",
+      "targetPath": "/boing-contest",
+      "id": "37e2b48b0b6d1368594dcc79d0b9b320865659e3"
+    },
+    {
+      "url": "https://bingosnacks.com/contact-us.html",
+      "source": "SITEMAPS",
+      "targetPath": "/contact-us",
+      "id": "85e93c6626e74a8da3485cbef7a677313481688f"
+    },
+    {
+      "url": "https://bingosnacks.com/eat-win-repeat-tnc.html",
+      "source": "SITEMAPS",
+      "targetPath": "/eat-win-repeat-tnc",
+      "id": "a7b29d5bcad7fe4c748b1020e679b1f4c9f7a8a8"
+    },
+    {
+      "url": "https://bingosnacks.com/factory-locator.html",
+      "source": "SITEMAPS",
+      "targetPath": "/factory-locator",
+      "id": "6741995332327c61138d208104268e5212f4b074"
+    },
+    {
+      "url": "https://bingosnacks.com/faqs.html",
+      "source": "SITEMAPS",
+      "targetPath": "/faqs",
+      "id": "884a4fbc7a75224e37640ce8f15c54c5b0981b11"
+    },
+    {
+      "url": "https://bingosnacks.com/kaltiverse-of-madness.html",
+      "source": "SITEMAPS",
+      "targetPath": "/kaltiverse-of-madness",
+      "id": "a49bae6f86d842e226d7e3d29ac40287e6371bbe"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more",
+      "id": "68078d225c4f50e2bebf48e9a0b48893f4a3d48f"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs",
+      "id": "a45f66b9071f089e853fa32cbd99d25a7a481a8c"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/best-snacks-for-movie-night.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/best-snacks-for-movie-night",
+      "id": "64d5a490d9343a01c5b1e14621e1749470d54533"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/best-spicy-snacks-by-bingo.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/best-spicy-snacks-by-bingo",
+      "id": "1f8c317c5a38499a1b70f4c923b785595a764dfd"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/chips-and-dips-snack-pairings.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/chips-and-dips-snack-pairings",
+      "id": "f740df799e94496ad0a8a446df383c4b0ea3a086"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/comfort-food-snacking-ideas.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/comfort-food-snacking-ideas",
+      "id": "dd52f694e966f7467f66acae5a3ac114798a4e3a"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/different-types-of-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/different-types-of-potato-chips",
+      "id": "df99de455c8e4c5ca2f8d655dcdce16c1fa2c411"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/fun-guide-to-indian-family-functions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/fun-guide-to-indian-family-functions",
+      "id": "b94747b6097f56649274090203dcf9ec3b0d2482"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/how-to-make-bingo-chips-bhel.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/how-to-make-bingo-chips-bhel",
+      "id": "bb32ba3489be831c9e12bee570ffb9304773d6ff"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/nachos-platter-ideas-with-bingo-mad-angles.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/nachos-platter-ideas-with-bingo-mad-angles",
+      "id": "9cb078b8e239ea09965bf3e5d01e9d5a80dfaea8"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/pickleball-beginners-guide.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/pickleball-beginners-guide",
+      "id": "5130002e556808e3dc28d258fb7dba013d579c47"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/blogs/snack-platter-idea-for-parties.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/blogs/snack-platter-idea-for-parties",
+      "id": "34b665716b31c50f6836d7257602fec9f0e3efc0"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns",
+      "id": "976f7e44a9bb1c55f28c31604f3b8eacd71f96ae"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns/bingo--tedhe-medhe-rockanjali.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns/bingo-tedhe-medhe-rockanjali",
+      "id": "cc35ef49c3a7976892d875eed0aede36f1550878"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns/bingo-popped-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns/bingo-popped-chips",
+      "id": "4720194edd2dd0de31731521fc9b90564b8a0bbb"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns/bingo-tedhe-medhe-bihu.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns/bingo-tedhe-medhe-bihu",
+      "id": "9bb2ea5794d0dc6d7d0e82700f8ace02effcd257"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns/bingo-tedhe-medhe-mahakumbh.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns/bingo-tedhe-medhe-mahakumbh",
+      "id": "e4a9b0e05b71e3f4218bad498f8aa67073058c59"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/campaigns/new-bingo-potato-chips.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/campaigns/new-bingo-potato-chips",
+      "id": "31a0090897e1cb161a35d640170a3a6e3e25925c"
+    },
+    {
+      "url": "https://bingosnacks.com/know-more/news.html",
+      "source": "SITEMAPS",
+      "targetPath": "/know-more/news",
+      "id": "a3bd1fb6eb3efb5bb3962ade649b778111c9e33e"
+    },
+    {
+      "url": "https://bingosnacks.com/Lets-Boing.html",
+      "source": "SITEMAPS",
+      "targetPath": "/lets-boing",
+      "id": "341d012931696314f67c272c7523e389e706c267"
+    },
+    {
+      "url": "https://bingosnacks.com/mad-angles-halloween.html",
+      "source": "SITEMAPS",
+      "targetPath": "/mad-angles-halloween",
+      "id": "79eec70eb7cd63b2f73d8567fed16b39885186db"
+    },
+    {
+      "url": "https://bingosnacks.com/mad-angles-mystery-pickle-contest.html",
+      "source": "SITEMAPS",
+      "targetPath": "/mad-angles-mystery-pickle-contest",
+      "id": "c5398bc0e7ee7c841fc9f678d75bc85c2b1d7115"
+    },
+    {
+      "url": "https://bingosnacks.com/mad-angles-mystery-pickle-contest/terms-and-conditions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/mad-angles-mystery-pickle-contest/terms-and-conditions",
+      "id": "4c2bf6e3c7104a639dbaa3d80edb3e753dd959a7"
+    },
+    {
+      "url": "https://bingosnacks.com/Mad-Triangles-Contest.html",
+      "source": "SITEMAPS",
+      "targetPath": "/mad-triangles-contest",
+      "id": "ba1b82000ef94257d79843bff0a8203fe14d11a6"
+    },
+    {
+      "url": "https://bingosnacks.com/Mad-Triangles-Contest/mad-about-triangles-winner-announcement.html",
+      "source": "SITEMAPS",
+      "targetPath": "/mad-triangles-contest/mad-about-triangles-winner-announcement",
+      "id": "043acd9cc722c9b462ae738c46284c8e4b5a142f"
+    },
+    {
+      "url": "https://bingosnacks.com/media.html",
+      "source": "SITEMAPS",
+      "targetPath": "/media",
+      "id": "520117bcd3603ad30f4addb3abe0961405f82f14"
+    },
+    {
+      "url": "https://bingosnacks.com/meme-war-terms-and-conditions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/meme-war-terms-and-conditions",
+      "id": "36ac83f56416bfeb96b001f70bd2d1206dd10a69"
+    },
+    {
+      "url": "https://bingosnacks.com/our-story.html",
+      "source": "SITEMAPS",
+      "targetPath": "/our-story",
+      "id": "9a369bbf4ca103afe69fb8bd75e99783e41f7a9c"
+    },
+    {
+      "url": "https://bingosnacks.com/privacy-policy.html",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy-policy",
+      "id": "1b1cd665b9bd8bfb371e15ffdeef9dbb21bee1a5"
+    },
+    {
+      "url": "https://bingosnacks.com/RedAlertInSpace/red-alert-in-space-winner-announcement.html",
+      "source": "SITEMAPS",
+      "targetPath": "/redalertinspace/red-alert-in-space-winner-announcement",
+      "id": "02764fc575e2542447cfa52e9518167e4ab8a2fa"
+    },
+    {
+      "url": "https://bingosnacks.com/RedAlertInSpaceHindi.html",
+      "source": "SITEMAPS",
+      "targetPath": "/redalertinspacehindi",
+      "id": "a2889da9eab023fb0f8c6ded84ea7c16155b1f0a"
+    },
+    {
+      "url": "https://bingosnacks.com/RedAlertInSpaceHindi/terms-and-conditions.html",
+      "source": "SITEMAPS",
+      "targetPath": "/redalertinspacehindi/terms-and-conditions",
+      "id": "2216e9182e20d6d35dffb9df1314fb044f205fc5"
+    },
+    {
+      "url": "https://bingosnacks.com/terms-and-conditions-instagram-madangles.html",
+      "source": "SITEMAPS",
+      "targetPath": "/terms-and-conditions-instagram-madangles",
+      "id": "d048ab1cdbed555b18046a59d7f7398bcf288491"
+    },
+    {
+      "url": "https://bingosnacks.com/terms-of-use.html",
+      "source": "SITEMAPS",
+      "targetPath": "/terms-of-use",
+      "id": "a95279a1690d954dd31f7fbb1c3893564d5f0583"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://bingosnacks.com/Bingo--Potato-Chips.html",
+      "status": "301 Moved Permanently Redirect: https://bingosnacks.com/bingo-potato-chips.html"
+    },
+    {
+      "url": "https://bingosnacks.com/mad-angles-mystery-pickle-contest/mystery-pickle-trade-contest-terms-and-conditions.html",
+      "status": "301 Moved Permanently Redirect: https://bingosnacks.com/mad-angles-mystery-pickle-contest/terms-and-conditions.html"
+    },
+    {
+      "url": "https://bingosnacks.com/RedAlertInSpace.html",
+      "status": "301 Moved Permanently Redirect: https://bingosnacks.com/RedAlertInSpaceHindi.html"
+    },
+    {
+      "url": "https://bingosnacks.com/RedAlertInSpace/terms-and-conditions.html",
+      "status": "301 Moved Permanently Redirect: https://bingosnacks.com/RedAlertInSpaceHindi/terms-and-conditions.html"
+    }
+  ],
+  "errorCountMessage": "{\"E_301\":4}",
+  "error": null
+}
