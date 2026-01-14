@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .table.block {
   width: 100%;
   overflow-x: auto;
@@ -50,18 +51,82 @@
   margin-top: 0.25em;
 }
 
-/* no header variant */
 .table.block.no-header table tbody tr {
   border-top: 1px solid;
 }
 
-/* striped variant */
 .table.block.striped tbody tr:nth-child(odd) {
   background-color: var(--overlay-background-color);
 }
 
-/* bordered variant */
 .table.block.bordered table th,
 .table.block.bordered table td {
   border: 1px solid;
+}
+
+
+.table-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  background: #181818;
+  padding: 40px 0;
+}
+
+.table33.block {
+  background: transparent;
+  color: #fff;
+  width: 480px;
+  border-radius: 12px;
+}
+
+.table33.block table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.table33.block th,
+.table33.block td {
+  padding: 16px 8px;
+  text-align: left;
+  font-family: Inter, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+}
+
+.table33.block th p strong {
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+.table33.block td p {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.table33.block th:not(:nth-child(2n)),
+.table33.block td:not(:nth-child(2n)) {
+  padding: 0;
+  width: 8px;
+}
+
+@media (width <= 900px) {
+  .table-wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .table33.block {
+    width: 100%;
+    min-width: 0;
+  }
 }
