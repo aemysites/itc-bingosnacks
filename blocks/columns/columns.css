@@ -239,17 +239,9 @@
 }
 
 .columns.columns5 h2 {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: 0.01em;
-  line-height: 1.17;
-  margin: 0 0 1.1rem;
-  padding: 0;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-}
+    font-size: 1.3rem;
+    margin-bottom: 0.7rem;
+  }
 
 .columns.columns5 p {
   color: #fff;
@@ -314,14 +306,12 @@
   padding: 40px 0 32px;
 }
 
-/* Ensure the wrapper gives breathing room but doesn't force full width */
 .columns.columns6 .columns-wrapper {
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
 }
 
-/* Use CSS Grid for multi-column horizontal layout and top alignment */
 .columns.columns6 .columns {
   display: grid;
   grid-template-columns: repeat(6, minmax(0,1fr));
@@ -330,7 +320,6 @@
   width: 100%;
 }
 
-/* Responsive: Stack vertically on small screens */
 @media (width <= 900px) {
   .columns.columns6 .columns {
     grid-template-columns: 1fr;
@@ -342,7 +331,6 @@
   }
 }
 
-/* First column (logo/info): vertical stack, left/top aligned */
 .columns.columns6 .columns div:first-child {
   display: flex;
   flex-direction: column;
@@ -356,7 +344,6 @@
   box-sizing: border-box;
 }
 
-/* Make sure images in first column display correctly */
 .columns.columns6 .columns div:first-child img {
   display: block;
   max-width: 120px;
@@ -364,7 +351,6 @@
   margin-bottom: 8px;
 }
 
-/* First column text */
 .columns.columns6 .columns div:first-child p,
 .columns.columns6 .columns div:first-child span,
 .columns.columns6 .columns div:first-child small {
@@ -376,7 +362,6 @@
   letter-spacing: 0.01em;
 }
 
-/* All other columns: add left divider, spacing */
 .columns.columns6 .columns div:not(:first-child) {
   border-left: 1px solid #333;
   padding-left: 40px;
@@ -388,7 +373,6 @@
   justify-content: flex-start;
 }
 
-/* Remove border-left and padding-left for second column on mobile */
 @media (width <= 900px) {
   .columns.columns6 .columns div:not(:first-child) {
     border-left: none;
@@ -396,20 +380,17 @@
   }
 }
 
-/* Remove bullets on all lists, fix spacing */
 .columns.columns6 .columns ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* List item spacing */
 .columns.columns6 .columns li {
   margin: 0 0 8px;
   padding: 0;
 }
 
-/* Style all links in the columns block */
 .columns.columns6 .columns a {
   color: #fff;
   font-size: 14px;
@@ -420,14 +401,12 @@
   transition: color 0.2s;
 }
 
-/* On hover/focus, provide clear visual feedback */
 .columns.columns6 .columns a:hover,
 .columns.columns6 .columns a:focus {
   color: #f3c500;
   text-decoration: underline;
 }
 
-/* All text in block is white by default for contrast */
 .columns.columns6 .columns,
 .columns.columns6 .columns div,
 .columns.columns6 .columns p,
@@ -435,4 +414,75 @@
 .columns.columns6 .columns span,
 .columns.columns6 .columns small {
   color: #fff;
+}
+
+
+.columns.columns10 {
+  background: #FFD600;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 40px 48px;
+  min-height: 112px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.columns.columns10 div {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.columns.columns10 h1,
+.columns.columns10 h2,
+.columns.columns10 h3,
+.columns.columns10 h4,
+.columns.columns10 h5,
+.columns.columns10 h6 {
+  color: #000;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.columns.columns10 p,
+.columns.columns10 span,
+.columns.columns10 li {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.columns.columns10 ul,
+.columns.columns10 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 18px;
+}
+
+/* Responsive: Stack columns vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns10 {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+    min-height: 0;
+  }
+
+  .columns.columns10 div {
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
 }
