@@ -397,7 +397,6 @@
   margin-bottom: 0;
 }
 
-/* Responsive stacking for mobile */
 @media (width <= 900px) {
   .cards.cards9 ul {
     gap: 32px;
@@ -448,5 +447,144 @@
 
   .cards.cards9 .cards-card-body p {
     font-size: 1rem;
+  }
+}
+
+
+.cards.cards12 {
+  background: #141414;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.cards.cards12 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 0 28px;
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  place-items: start center;
+  padding: 0;
+}
+
+.cards.cards12 ul li {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cards.cards12 ul li:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.cards.cards12 ul li:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.cards.cards12 ul li:nth-child(3) {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  justify-self: center;
+  margin-top: 130px;
+}
+
+.cards.cards12 ul li .cards-card-image {
+  margin-bottom: 0;
+}
+
+.cards.cards12 ul li .cards-card-image img {
+  max-width: 410px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  object-fit: contain;
+  display: block;
+}
+
+/* Titles: Large, uppercase, overlap image */
+.cards.cards12 ul li h3,
+.cards.cards12 ul li strong {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.05;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: -44px;
+  margin-bottom: 10px;
+  border: none;
+  background: none;
+}
+
+/* Specific title colors */
+.cards.cards12 ul li:nth-child(1) h3,
+.cards.cards12 ul li:nth-child(1) strong {
+  color: #8452d9;
+}
+
+.cards.cards12 ul li:nth-child(2) h3,
+.cards.cards12 ul li:nth-child(2) strong {
+  color: #7cf43a;
+}
+
+.cards.cards12 ul li:nth-child(3) h3,
+.cards.cards12 ul li:nth-child(3) strong {
+  color: #ffe01a;
+  font-size: 3.5rem;
+  line-height: 1.01;
+}
+
+/* Stagger "STYLE" of "KOREAN STYLE" if markup allows */
+.cards.cards12 ul li:nth-child(3) h3 br + span,
+.cards.cards12 ul li:nth-child(3) strong br + span {
+  display: inline-block;
+  margin-left: 34px;
+}
+
+/* Description styling */
+.cards.cards12 ul li p,
+.cards.cards12 ul li .cards-card-body,
+.cards.cards12 ul li .cards-card-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.45;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .cards.cards12 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .cards.cards12 ul li {
+    padding: 0 8px;
+  }
+
+  .cards.cards12 ul li:nth-child(3) {
+    margin-top: 48px;
+  }
+
+  .cards.cards12 ul li .cards-card-image img {
+    max-width: 90vw;
   }
 }
