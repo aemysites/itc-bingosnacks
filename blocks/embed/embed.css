@@ -60,3 +60,40 @@
   top: 4px;
   left: 7px;
 }
+
+
+.embed.embedvideo34.block {
+  display: flex;
+  flex-direction: row;           /* Arrange children side-by-side */
+  align-items: stretch;          /* Equal height if needed */
+  background: linear-gradient(135deg, #f44 0%, #fa0 100%);
+  background-size: cover;
+  border: 8px solid #232323;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgb(0 0 0 / 18%);
+  position: relative;
+  overflow: hidden;
+  min-height: 420px;             /* Or whatever fits your design */
+}
+
+.embed.embedvideo34.block::before {
+  /* Flames or snack overlay as bg image */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/path/to/flames.png') center/cover no-repeat;
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Centered Play Button (as overlay) */
+.embed.embedvideo34.block::after {
+  content: '';
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 88px; height: 88px;
+  background: url('/path/to/youtube-play.png') center/contain no-repeat;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
