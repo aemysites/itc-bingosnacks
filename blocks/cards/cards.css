@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -24,4 +25,155 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+
+.cards.cards4 {
+  background: #181818;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  padding: 48px 0;
+}
+
+/* Main card row uses flexbox, cards side by side, fills container */
+.cards.cards4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 900px) {
+  .cards.cards4 ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+/* Card styling: fluid width, tight gap, shadow, rounded corners */
+.cards.cards4 ul li {
+  background: #212121;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgb(0 0 0 / 22%);
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 380px;
+  flex: 1 1 0;
+  overflow: hidden;
+  transition: box-shadow 0.22s;
+  box-sizing: border-box;
+}
+
+/* On wide screens, cards fill row and are closer together */
+@media (width >= 1200px) {
+  .cards.cards4 ul {
+    gap: 24px;
+  }
+
+  .cards.cards4 ul li {
+    max-width: 410px;
+  }
+}
+
+/* Card hover effect for depth */
+.cards.cards4 ul li:hover {
+  box-shadow: 0 8px 32px rgb(0 0 0 / 25%);
+}
+
+/* Top "image"/placeholder area, visually prominent, rounded top corners */
+.cards.cards4 ul li .cards-card-body {
+  background: #292929;
+  min-height: 160px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 22px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove extra gap between image and text area */
+.cards.cards4 ul li .cards-card-body:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* Second .cards-card-body in each card: text area, anchor content to bottom */
+.cards.cards4 ul li .cards-card-body + .cards-card-body {
+  background: #212121;
+  padding: 18px 22px 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 7px;
+  box-sizing: border-box;
+  min-height: 100px;
+}
+
+/* Left align all text in text area */
+.cards.cards4 ul li .cards-card-body + .cards-card-body h3,
+.cards.cards4 ul li .cards-card-body + .cards-card-body h4 {
+  text-align: left;
+}
+
+/* Meta/date/category styling: small, light, subtle */
+.cards.cards4 ul li h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #B0B0B0;
+  margin: 0 0 2px;
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+/* Headline styling: visually dominant */
+.cards.cards4 ul li h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+  line-height: 1.38;
+}
+
+/* Remove extra spacing from placeholder p */
+.cards.cards4 ul li .cards-card-body p {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* Responsive tweaks for smaller screens */
+@media (width <= 600px) {
+  .cards.cards4 ul {
+    gap: 12px;
+  }
+
+  .cards.cards4 {
+    padding: 24px 0;
+  }
+
+  .cards.cards4 ul li {
+    min-width: 0;
+    max-width: 100%;
+  }
 }
