@@ -31,3 +31,142 @@
     order: unset;
   }
 }
+
+
+/* Main block background and vertical spacing */
+.columns.columns2 {
+  background: #191919;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+/* The inner wrapper should be a flex row for side-by-side columns.
+   This targets both the direct wrapper and any nesting in the columns block. */
+.columns.columns2 div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* Constrain width for readability, but still center horizontally */
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 32px;
+  padding-right: 32px;
+  gap: 56px;
+}
+
+/* Text column: left side, vertical stacking */
+.columns.columns2 div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* Constrain text column width */
+  flex-basis: 420px;
+  max-width: 420px;
+  min-width: 0;
+}
+
+/* Image column: right side */
+.columns.columns2 .columns-img-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+}
+
+/* Image styling for aspect ratio, rounded corners, and max width */
+.columns.columns2 .columns-img-col picture,
+.columns.columns2 .columns-img-col img {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  background: none;
+  box-shadow: none;
+}
+
+/* Heading styling */
+.columns.columns2 h2 {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.035em;
+  font-size: 2rem;
+  line-height: 1.13;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+/* Paragraph styling */
+.columns.columns2 p {
+  color: #b3b3b3;
+  font-size: 1.15rem;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 90%;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 900px) {
+  .columns.columns2 div {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+  }
+  .columns.columns2 div div {
+    flex-basis: auto;
+    max-width: 100%;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .columns.columns2 .columns-img-col {
+    align-items: center;
+    margin-top: 12px;
+  }
+  .columns.columns2 .columns-img-col picture,
+  .columns.columns2 .columns-img-col img {
+    max-width: 350px;
+  }
+  .columns.columns2 h2 {
+    font-size: 1.4rem;
+  }
+  .columns.columns2 p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .columns.columns2 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .columns.columns2 div {
+    padding-left: 6px;
+    padding-right: 6px;
+    gap: 20px;
+  }
+  .columns.columns2 .columns-img-col picture,
+  .columns.columns2 .columns-img-col img {
+    max-width: 98vw;
+  }
+  .columns.columns2 h2 {
+    font-size: 1.08rem;
+    margin-bottom: 10px;
+  }
+  .columns.columns2 p {
+    font-size: 0.95rem;
+  }
+}
