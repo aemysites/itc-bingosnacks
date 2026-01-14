@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -179,7 +180,6 @@
   margin: 2.5rem 0;
 }
 
-/* Two-column grid for main desktop layout */
 .columns.columns5 .columns {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -188,16 +188,14 @@
   width: 100%;
 }
 
-/* Left column: only the main image participates in flow */
 .columns.columns5 .columns div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  gap: 0; /* Only main image in stacking order */
+  gap: 0;
 }
 
-/* Main (top) image styling */
 .columns.columns5 .columns div picture:first-child,
 .columns.columns5 .columns div img:first-child {
   width: 100%;
@@ -212,7 +210,6 @@
   background: #222;
 }
 
-/* Snacks image: absolutely positioned as decorative accent */
 .columns.columns5 .columns div picture:last-child,
 .columns.columns5 .columns div img:last-child {
   position: absolute;
@@ -229,7 +226,6 @@
   background: transparent;
 }
 
-/* Right column: text block, top-aligned with main image */
 .columns.columns5 .columns div + div {
   display: flex;
   flex-direction: column;
@@ -242,7 +238,6 @@
   word-break: break-all;
 }
 
-/* Headline: bold, uppercase, proper spacing */
 .columns.columns5 h2 {
   color: #fff;
   text-transform: uppercase;
@@ -256,7 +251,6 @@
   overflow-wrap: anywhere;
 }
 
-/* Paragraph: clean, readable */
 .columns.columns5 p {
   color: #fff;
   font-size: 1.13rem;
@@ -267,7 +261,6 @@
   max-width: 38em;
 }
 
-/* Responsive: single column, snacks image in flow */
 @media (width <= 900px) {
   .columns.columns5 {
     padding: 1.25rem 0.5rem;
@@ -313,4 +306,133 @@
     font-size: 0.98rem;
     line-height: 1.5;
   }
+}
+
+
+.columns.columns6 {
+  background: #181818;
+  padding: 40px 0 32px;
+}
+
+/* Ensure the wrapper gives breathing room but doesn't force full width */
+.columns.columns6 .columns-wrapper {
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+/* Use CSS Grid for multi-column horizontal layout and top alignment */
+.columns.columns6 .columns {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0,1fr));
+  gap: 56px;
+  align-items: start;
+  width: 100%;
+}
+
+/* Responsive: Stack vertically on small screens */
+@media (width <= 900px) {
+  .columns.columns6 .columns {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .columns.columns6 .columns-wrapper {
+    padding: 0 16px;
+  }
+}
+
+/* First column (logo/info): vertical stack, left/top aligned */
+.columns.columns6 .columns div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure images in first column display correctly */
+.columns.columns6 .columns div:first-child img {
+  display: block;
+  max-width: 120px;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+/* First column text */
+.columns.columns6 .columns div:first-child p,
+.columns.columns6 .columns div:first-child span,
+.columns.columns6 .columns div:first-child small {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 6px;
+  padding: 0;
+  letter-spacing: 0.01em;
+}
+
+/* All other columns: add left divider, spacing */
+.columns.columns6 .columns div:not(:first-child) {
+  border-left: 1px solid #333;
+  padding-left: 40px;
+  min-width: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* Remove border-left and padding-left for second column on mobile */
+@media (width <= 900px) {
+  .columns.columns6 .columns div:not(:first-child) {
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+/* Remove bullets on all lists, fix spacing */
+.columns.columns6 .columns ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List item spacing */
+.columns.columns6 .columns li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+/* Style all links in the columns block */
+.columns.columns6 .columns a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  transition: color 0.2s;
+}
+
+/* On hover/focus, provide clear visual feedback */
+.columns.columns6 .columns a:hover,
+.columns.columns6 .columns a:focus {
+  color: #f3c500;
+  text-decoration: underline;
+}
+
+/* All text in block is white by default for contrast */
+.columns.columns6 .columns,
+.columns.columns6 .columns div,
+.columns.columns6 .columns p,
+.columns.columns6 .columns li,
+.columns.columns6 .columns span,
+.columns.columns6 .columns small {
+  color: #fff;
 }
