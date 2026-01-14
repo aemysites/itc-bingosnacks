@@ -159,7 +159,7 @@
   margin: 80px auto 0;
   border-radius: 16px;
   overflow: hidden;
-  background: #222; /* fallback in case image fails */
+  background: #222;
   box-shadow: 0 4px 32px rgb(0 0 0 / 8%);
 }
 
@@ -178,7 +178,7 @@
   height: 100%;
   object-fit: cover;
   min-height: 340px;
-  border-radius: 0; /* Prevent double rounding */
+  border-radius: 0;
 }
 
 .carousel.carousel3 .carousel-caption {
@@ -200,4 +200,126 @@
 .carousel.carousel3 .carousel-navigation-buttons,
 .carousel.carousel3 .carousel-slide-indicators {
   display: none;
+}
+
+
+.carousel.carousel18 .carousel-overlay,
+.carousel.carousel18 .carousel-bar,
+.carousel.carousel18 .carousel-main-bar,
+.carousel.carousel18 .carousel-content-bar {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  height: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGATION BUTTONS */
+.carousel.carousel18 .carousel-navigation-buttons {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+  z-index: 3;
+  padding: 0 14px;
+}
+
+.carousel.carousel18 .carousel-navigation-buttons button {
+  pointer-events: auto;
+  background: #ff5400;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  min-width: 46px;
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  outline: none;
+  transition: background 0.16s, color 0.16s, box-shadow 0.16s;
+  position: relative;
+  padding: 0;
+}
+
+.carousel.carousel18 .carousel-navigation-buttons button:focus-visible {
+  box-shadow: 0 0 0 3px #fff6, 0 0 0 5px #ff540066;
+}
+
+.carousel.carousel18 .carousel-navigation-buttons button:hover {
+  background: #e44300;
+}
+
+.carousel.carousel18 .carousel-navigation-buttons button::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-radius: 2px;
+  margin-top: 1px;
+}
+
+.carousel.carousel18 .carousel-navigation-buttons .slide-prev::before {
+  transform: rotate(45deg) scale(1,1);
+}
+
+.carousel.carousel18 .carousel-navigation-buttons .slide-next::before {
+  transform: rotate(-135deg) scale(1,1);
+}
+
+/* PAGE INDICATORS */
+.carousel.carousel18 .carousel-slide-indicators {
+  background: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 12px;
+  z-index: 4;
+  padding: 0;
+}
+
+.carousel.carousel18 .carousel-slide-indicator button {
+  width: 13px;
+  height: 13px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+  background: #ff5400;
+  border: none;
+  box-shadow: 0 1px 3px #0001;
+  opacity: 0.8;
+  transition: opacity 0.13s, transform 0.13s, background 0.13s;
+  outline: none;
+}
+
+.carousel.carousel18 .carousel-slide-indicator button:disabled,
+.carousel.carousel18 .carousel-slide-indicator button[aria-current="true"],
+.carousel.carousel18 .carousel-slide-indicator button:focus-visible {
+  opacity: 1;
+  transform: scale(1.18);
+  background: #ff5400;
+  box-shadow: 0 0 0 2px #fff4;
+}
+
+.carousel.carousel18 .carousel-slide-indicator button:hover {
+  opacity: 1;
+  background: #ff7b3a;
 }
