@@ -511,7 +511,6 @@
   display: block;
 }
 
-/* Titles: Large, uppercase, overlap image */
 .cards.cards12 ul li h3,
 .cards.cards12 ul li strong {
   font-size: 3rem;
@@ -526,7 +525,6 @@
   background: none;
 }
 
-/* Specific title colors */
 .cards.cards12 ul li:nth-child(1) h3,
 .cards.cards12 ul li:nth-child(1) strong {
   color: #8452d9;
@@ -544,14 +542,12 @@
   line-height: 1.01;
 }
 
-/* Stagger "STYLE" of "KOREAN STYLE" if markup allows */
 .cards.cards12 ul li:nth-child(3) h3 br + span,
 .cards.cards12 ul li:nth-child(3) strong br + span {
   display: inline-block;
   margin-left: 34px;
 }
 
-/* Description styling */
 .cards.cards12 ul li p,
 .cards.cards12 ul li .cards-card-body,
 .cards.cards12 ul li .cards-card-text {
@@ -566,7 +562,6 @@
   margin-bottom: 0;
 }
 
-/* Responsive stacking for mobile */
 @media (width <= 900px) {
   .cards.cards12 ul {
     display: flex;
@@ -587,4 +582,168 @@
   .cards.cards12 ul li .cards-card-image img {
     max-width: 90vw;
   }
+}
+
+
+.cards.cards22 {
+  background: transparent;
+  padding: 0;
+}
+
+.cards.cards22 ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Card Layout */
+.cards.cards22 li {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: #232323;
+  border-radius: 20px;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 13%);
+  margin: 0;
+  overflow: hidden;
+  min-width: 0;
+  transition: box-shadow 0.2s;
+}
+
+/* Left: Image Area */
+.cards.cards22 .cards-card-image {
+  flex: 0 0 36%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0 32px 32px;
+  background: #181818;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.cards.cards22 .cards-card-image img,
+.cards.cards22 .cards-card-image picture {
+  border-radius: 16px;
+  width: 100%;
+  max-width: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: #232323;
+  margin: 0 auto;
+}
+
+/* Right: Content Area */
+.cards.cards22 .cards-card-body {
+  flex: 1 1 64%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  min-width: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.cards.cards22 .cards-card-body h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
+.cards.cards22 .cards-card-body p {
+  color: #ccc;
+  margin: 0 0 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cards.cards22 .cards-card-body p:first-of-type {
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.cards.cards22 .cards-card-body p + p {
+  color: #a0a0a0;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Action Link/Button */
+.cards.cards22 .cards-card-body a,
+.cards.cards22 .cards-card-body .button {
+  display: inline-block;
+  margin-top: 18px;
+  background: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: underline;
+  border: none;
+  padding: 0;
+  text-align: left;
+  border-radius: 0;
+  box-shadow: none;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.cards.cards22 .cards-card-body a:hover,
+.cards.cards22 .cards-card-body .button:hover {
+  color: #ffe066;
+}
+
+.cards.cards22 .cards-card-body .button,
+.cards.cards22 .cards-card-body a.button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Responsive stacking for mobile */
+@media (width <= 800px) {
+  .cards.cards22 ul {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .cards.cards22 li {
+    flex-direction: column;
+    min-width: 0;
+    border-radius: 14px;
+  }
+
+  .cards.cards22 .cards-card-image {
+    padding: 24px 24px 0;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    background: #181818;
+  }
+
+  .cards.cards22 .cards-card-body {
+    padding: 24px;
+    max-width: 100%;
+  }
+
+  .cards.cards22 .cards-card-image img,
+  .cards.cards22 .cards-card-image picture {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.cards.cards22 li:hover {
+  box-shadow: 0 4px 32px rgb(0 0 0 / 18%);
 }
